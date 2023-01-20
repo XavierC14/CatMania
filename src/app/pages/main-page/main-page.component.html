@@ -1,11 +1,11 @@
 <h5>Buscador de Gatos</h5>
 
 
-    <mat-form-field class="example-full-width">
-        <mat-label>Numero de gatos: </mat-label>
-        <input [formControl]="limitControl" matInput placeholder="5" type="number">
-    </mat-form-field>
-    <button (click)="search()"><mat-icon>search</mat-icon></button>
+<mat-form-field class="example-full-width" id="buscador">
+    <mat-label>Numero de gatos: </mat-label>
+    <input [formControl]="limitControl" matInput placeholder="5" type="number">
+</mat-form-field>
+<button (click)="search()"><mat-icon>search</mat-icon></button>
 
 
 <div class="gatos">

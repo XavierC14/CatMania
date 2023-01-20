@@ -1,14 +1,16 @@
-h5,
-form {
+h5 {
     text-align: center;
 }
-
-.gatos{
+#buscador{
+    align-content: center;
+    margin-left: 820px;
+}
+.gatos {
     display: flex;
     justify-content: center;
 }
 
-img{
-    max-width: 1000px;
-    max-height: 1000px;
+img {
+    max-width: 100px;
+    max-height: 100px;
 }
