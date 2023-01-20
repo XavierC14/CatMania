@@ -1,0 +1,14 @@
+h5,
+form {
+    text-align: center;
+}
+
+.gatos{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    max-width: 1000px;
+    max-height: 1000px;
+}
